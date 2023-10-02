@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-image: url("images/cloudy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  width: 100%;
+  height: 100vh;
+  position: static;
+  opacity: 0.8;
+}
+.card {
+  background-color: rgb(236, 221, 221, 0.2);
+}
+
+h1 {
+  font-family: "Cabin", sans-serif;
+}
+h2 {
+  font-family: "Cabin", sans-serif;
+  font-size: 40px;
+}
+.card-main p {
+  font-size: 15px;
+  font-style: oblique;
+  color: rgb(88, 88, 88);
+}
+#current-date {
+  font-size: 15px;
+  font-style: oblique;
+  color: rgb(88, 88, 88);
+}
+
+.main h3 {
+  font-size: 40px;
+  color: #1e1f20;
+}
+.search-box {
+  width: 500px;
+}
+.btn{
+  padding:1.5px 10px; 
+  margin-bottom:4px;
+  background-color: rgba(0,0,0,.1);
+  color:#fff; }
+
+section .card-body {
+  height: 220px;
+  background-attachment: fixe;
+}
+.main {
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+  position: relative;
+  top: -15px;
+  color: black;
+}
+a:hover {
+  color: rgb(179, 175, 175);
+}
+li {
+  font-size: 15px;
+  font-style: oblique;
+  color: rgb(51, 51, 51);
+  list-style: none;
+  position: relative;
+  top: 140px;
+}
